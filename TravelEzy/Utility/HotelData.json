@@ -1,0 +1,55 @@
+
+{
+    "Data": [
+        {
+            "name": "Taj Coromandel",
+            "price": 5359,
+            "rating": 3
+        },
+        {
+            "name": "Hyatt Regency Chennai",
+            "price": 1050,
+            "rating": 1
+        },
+        {
+            "name": "Welcomhotel Chennai",
+            "price": 8000,
+            "rating": 4
+        },
+        {
+            "name": "Crowne Plaza",
+            "price": 5999,
+            "rating": 3
+        },
+        {
+            "name": "Trident",
+            "price": 7999,
+            "rating": 4
+        },
+        {
+            "name": "ITC Grand Chola Hotel",
+            "price": 2404,
+            "rating": 1
+        },
+        {
+            "name": "Park Hyatt Chennai",
+            "price": 3500,
+            "rating": 2
+        },
+        {
+            "name": "Westin Chennai",
+            "price": 10030,
+            "rating": 5
+        },
+        {
+            "name": "Radisson Blu Hotel",
+            "price": 9200,
+            "rating": 5
+        },
+        {
+            "name": "Le Royal Meridien",
+            "price": 3500,
+            "rating": 2
+        }
+    ]
+}

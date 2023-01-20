@@ -7,15 +7,31 @@
 
 import UIKit
 import CoreData
+import Firebase
+import SVProgressHUD
 
+@available(iOS 13.0, *)
+@available(iOS 13.0, *)
+@available(iOS 13.0, *)
+@available(iOS 13.0, *)
+@available(iOS 13.0, *)
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    var window: UIWindow?
 
-
-
+    static var standard: AppDelegate {
+           return UIApplication.shared.delegate as! AppDelegate
+       }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        setupDefaultAppearance()
         return true
+    }
+    
+    fileprivate func setupDefaultAppearance() {
+        LoadingManager.configureDefaultAppearance()
     }
 
     // MARK: UISceneSession Lifecycle

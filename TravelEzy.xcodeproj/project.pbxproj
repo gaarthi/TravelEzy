@@ -3,13 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30774C4F078D6BBAF140F26D /* Pods_TravelEzy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1186985AB56645621E81FB07 /* Pods_TravelEzy.framework */; };
+		3BFD580CC5E705B33C5EFFB3 /* Pods_TravelEzy_TravelEzyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E2A795ED09141A4B798FD0 /* Pods_TravelEzy_TravelEzyUITests.framework */; };
+		825034874B0566371439324D /* Pods_TravelEzyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E82B50E02A03D1AB4727EA6B /* Pods_TravelEzyTests.framework */; };
+		AD588F0727D670B400484E10 /* HotelData.json in Resources */ = {isa = PBXBuildFile; fileRef = AD588F0627D670B300484E10 /* HotelData.json */; };
+		AD588F0927D673BB00484E10 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD588F0827D673BB00484E10 /* Hotel.swift */; };
+		AD952B0127EC0C8E003E2151 /* RestaurantInputFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD952B0027EC0C8E003E2151 /* RestaurantInputFirstViewController.swift */; };
+		AD952B0327EC0CA8003E2151 /* RestaurantInputSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD952B0227EC0CA8003E2151 /* RestaurantInputSecondViewController.swift */; };
+		ADA5BC2427DA20880059276C /* HotelPriceDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA5BC2227DA20880059276C /* HotelPriceDetailTableViewCell.swift */; };
+		ADA5BC2527DA20880059276C /* HotelPriceDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA5BC2327DA20880059276C /* HotelPriceDetailTableViewCell.xib */; };
+		ADA5BC2827DB172C0059276C /* HotelInputFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA5BC2727DB172C0059276C /* HotelInputFirstViewController.swift */; };
+		ADA5BC2A27DB17880059276C /* HotelInputSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA5BC2927DB17880059276C /* HotelInputSecondViewController.swift */; };
+		ADAB28F429158020000ECFF8 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAB28F32915801F000ECFF8 /* UIImageView+Extensions.swift */; };
+		ADAB28F629170DEB000ECFF8 /* Loading_Icon.gif in Resources */ = {isa = PBXBuildFile; fileRef = ADAB28F529170DEB000ECFF8 /* Loading_Icon.gif */; };
+		ADAB28F8292E3B98000ECFF8 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAB28F7292E3B97000ECFF8 /* AlertManager.swift */; };
+		ADAC4FCD27EF798400806A05 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC4FCC27EF798400806A05 /* Restaurant.swift */; };
+		ADAC4FD027F429C500806A05 /* MenuItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC4FCE27F429C500806A05 /* MenuItemCollectionViewCell.swift */; };
+		ADAC4FD127F429C500806A05 /* MenuItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADAC4FCF27F429C500806A05 /* MenuItemCollectionViewCell.xib */; };
+		ADAC4FD327F4CA4D00806A05 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC4FD227F4CA4C00806A05 /* WebService.swift */; };
+		ADAC4FD527F4D1E300806A05 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC4FD427F4D1E300806A05 /* CurrentWeather.swift */; };
+		ADAC4FD727F538D900806A05 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC4FD627F538D900806A05 /* DailyWeather.swift */; };
+		ADAC4FDA27FD878800806A05 /* HotelAmenitiesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC4FD827FD878800806A05 /* HotelAmenitiesCollectionViewCell.swift */; };
+		ADAC4FDB27FD878800806A05 /* HotelAmenitiesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADAC4FD927FD878800806A05 /* HotelAmenitiesCollectionViewCell.xib */; };
+		ADAC4FDD280BCC2800806A05 /* CitySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC4FDC280BCC2600806A05 /* CitySelectionViewController.swift */; };
+		ADAC4FDF280CF2C700806A05 /* CountryInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC4FDE280CF2C700806A05 /* CountryInputViewController.swift */; };
+		ADAC4FE1280D1E2D00806A05 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC4FE0280D1E2C00806A05 /* Country.swift */; };
+		ADAC4FE3280EB57B00806A05 /* StateEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC4FE2280EB57A00806A05 /* StateEnum.swift */; };
+		ADAC4FE5280FD3B800806A05 /* WelcomePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC4FE4280FD3B700806A05 /* WelcomePopupViewController.swift */; };
+		ADBAE8BE28125F9E00F5B1EF /* LoadingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBAE8BD28125F9E00F5B1EF /* LoadingManager.swift */; };
+		ADBAE8C22819011C00F5B1EF /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBAE8C12819011B00F5B1EF /* UIViewController+Extensions.swift */; };
+		ADDD5C1B2838E2A500B99E6A /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDD5C1A2838E2A500B99E6A /* UITextField+Extensions.swift */; };
 		ADEF851C278F182B00CE18B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF851B278F182B00CE18B1 /* AppDelegate.swift */; };
 		ADEF851E278F182B00CE18B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF851D278F182B00CE18B1 /* SceneDelegate.swift */; };
-		ADEF8520278F182B00CE18B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF851F278F182B00CE18B1 /* ViewController.swift */; };
 		ADEF8523278F182B00CE18B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEF8521278F182B00CE18B1 /* Main.storyboard */; };
 		ADEF8526278F182B00CE18B1 /* TravelEzy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADEF8524278F182B00CE18B1 /* TravelEzy.xcdatamodeld */; };
 		ADEF8528278F183000CE18B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEF8527278F183000CE18B1 /* Assets.xcassets */; };
@@ -17,6 +46,37 @@
 		ADEF8536278F183100CE18B1 /* TravelEzyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF8535278F183100CE18B1 /* TravelEzyTests.swift */; };
 		ADEF8540278F183100CE18B1 /* TravelEzyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF853F278F183100CE18B1 /* TravelEzyUITests.swift */; };
 		ADEF8542278F183100CE18B1 /* TravelEzyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF8541278F183100CE18B1 /* TravelEzyUITestsLaunchTests.swift */; };
+		ADEF855B2796911400CE18B1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF855A2796911400CE18B1 /* LoginViewController.swift */; };
+		ADEF85602796C9F300CE18B1 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF855F2796C9F300CE18B1 /* Theme.swift */; };
+		ADEF85622796D6E500CE18B1 /* SF-Compact-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ADEF85612796D6E500CE18B1 /* SF-Compact-Text-Semibold.otf */; };
+		ADEF85662796D6FB00CE18B1 /* SF-UI-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = ADEF85632796D6FB00CE18B1 /* SF-UI-Display-Regular.otf */; };
+		ADEF85672796D6FB00CE18B1 /* SF-UI-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = ADEF85642796D6FB00CE18B1 /* SF-UI-Display-Ultralight.otf */; };
+		ADEF85682796D6FB00CE18B1 /* SF-UI-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = ADEF85652796D6FB00CE18B1 /* SF-UI-Display-Light.otf */; };
+		ADEF856A2796D9BF00CE18B1 /* SF-Compact-Text-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = ADEF85692796D9BF00CE18B1 /* SF-Compact-Text-LightItalic.otf */; };
+		ADEF856C2797E37B00CE18B1 /* Travel.gif in Resources */ = {isa = PBXBuildFile; fileRef = ADEF856B2797E37B00CE18B1 /* Travel.gif */; };
+		ADEF856E2797EC8100CE18B1 /* SF-UI-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = ADEF856D2797EC8100CE18B1 /* SF-UI-Display-Black.otf */; };
+		ADEF8570279819E300CE18B1 /* GuestUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEF856F279819E200CE18B1 /* GuestUser.storyboard */; };
+		ADEF8572279819F800CE18B1 /* ServiceProvider.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEF8571279819F800CE18B1 /* ServiceProvider.storyboard */; };
+		ADEF85742798218900CE18B1 /* DisplayWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF85732798218900CE18B1 /* DisplayWeatherViewController.swift */; };
+		ADEF8576279E7D2D00CE18B1 /* ExploreCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF8575279E7D2D00CE18B1 /* ExploreCityViewController.swift */; };
+		ADEF8578279E7D3F00CE18B1 /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF8577279E7D3F00CE18B1 /* PlaceDetailViewController.swift */; };
+		ADEF858527B7FE1D00CE18B1 /* PlaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF858327B7FE1D00CE18B1 /* PlaceCollectionViewCell.swift */; };
+		ADEF858627B7FE1D00CE18B1 /* PlaceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADEF858427B7FE1D00CE18B1 /* PlaceCollectionViewCell.xib */; };
+		ADEF858827BE71A300CE18B1 /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF858727BE71A300CE18B1 /* FiltersViewController.swift */; };
+		ADEF858A27BE8B4400CE18B1 /* HotelListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF858927BE8B4400CE18B1 /* HotelListingViewController.swift */; };
+		ADEF858C27BE8B5A00CE18B1 /* HotelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF858B27BE8B5A00CE18B1 /* HotelDetailViewController.swift */; };
+		ADEF858F27BE8FC100CE18B1 /* HotelListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF858D27BE8FC100CE18B1 /* HotelListingTableViewCell.swift */; };
+		ADEF859027BE8FC100CE18B1 /* HotelListingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADEF858E27BE8FC100CE18B1 /* HotelListingTableViewCell.xib */; };
+		ADEF859227C38E6700CE18B1 /* RestaurantListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF859127C38E6700CE18B1 /* RestaurantListingViewController.swift */; };
+		ADEF859427C38EA000CE18B1 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF859327C38EA000CE18B1 /* RestaurantDetailViewController.swift */; };
+		ADEF859927C3C3AA00CE18B1 /* RestaurantListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF859727C3C3AA00CE18B1 /* RestaurantListingTableViewCell.swift */; };
+		ADEF859A27C3C3AA00CE18B1 /* RestaurantListingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADEF859827C3C3AA00CE18B1 /* RestaurantListingTableViewCell.xib */; };
+		ADEF859C27CF799900CE18B1 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF859B27CF799800CE18B1 /* UIButton+Extensions.swift */; };
+		ADEF859E27D3C1F200CE18B1 /* DropDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF859D27D3C1F100CE18B1 /* DropDownViewController.swift */; };
+		ADF2EBFC27DB5BAE00AD61A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADF2EBFB27DB5BAE00AD61A6 /* GoogleService-Info.plist */; };
+		ADF2EC0027E3608A00AD61A6 /* CityInputFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF2EBFF27E3608900AD61A6 /* CityInputFirstViewController.swift */; };
+		ADF2EC0227E360A200AD61A6 /* CityInputSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF2EC0127E360A100AD61A6 /* CityInputSecondViewController.swift */; };
+		ADF2EC0427E5D75400AD61A6 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF2EC0327E5D75300AD61A6 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +97,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1186985AB56645621E81FB07 /* Pods_TravelEzy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelEzy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E2A795ED09141A4B798FD0 /* Pods_TravelEzy_TravelEzyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelEzy_TravelEzyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA795265376FA7BC9A8C6A5 /* Pods-TravelEzy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelEzy.release.xcconfig"; path = "Target Support Files/Pods-TravelEzy/Pods-TravelEzy.release.xcconfig"; sourceTree = "<group>"; };
+		544883E92FBED0299180B23F /* Pods-TravelEzy-TravelEzyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelEzy-TravelEzyUITests.release.xcconfig"; path = "Target Support Files/Pods-TravelEzy-TravelEzyUITests/Pods-TravelEzy-TravelEzyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F475A82DD2969EBA7991308 /* Pods-TravelEzyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelEzyTests.release.xcconfig"; path = "Target Support Files/Pods-TravelEzyTests/Pods-TravelEzyTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D22C009A9544F0092787AA3 /* Pods-TravelEzy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelEzy.debug.xcconfig"; path = "Target Support Files/Pods-TravelEzy/Pods-TravelEzy.debug.xcconfig"; sourceTree = "<group>"; };
+		AD588F0627D670B300484E10 /* HotelData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HotelData.json; sourceTree = "<group>"; };
+		AD588F0827D673BB00484E10 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		AD952B0027EC0C8E003E2151 /* RestaurantInputFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInputFirstViewController.swift; sourceTree = "<group>"; };
+		AD952B0227EC0CA8003E2151 /* RestaurantInputSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInputSecondViewController.swift; sourceTree = "<group>"; };
+		ADA5BC2227DA20880059276C /* HotelPriceDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelPriceDetailTableViewCell.swift; sourceTree = "<group>"; };
+		ADA5BC2327DA20880059276C /* HotelPriceDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelPriceDetailTableViewCell.xib; sourceTree = "<group>"; };
+		ADA5BC2727DB172C0059276C /* HotelInputFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelInputFirstViewController.swift; sourceTree = "<group>"; };
+		ADA5BC2927DB17880059276C /* HotelInputSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelInputSecondViewController.swift; sourceTree = "<group>"; };
+		ADAB28F32915801F000ECFF8 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		ADAB28F529170DEB000ECFF8 /* Loading_Icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Loading_Icon.gif; sourceTree = "<group>"; };
+		ADAB28F7292E3B97000ECFF8 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		ADAC4FCC27EF798400806A05 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		ADAC4FCE27F429C500806A05 /* MenuItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		ADAC4FCF27F429C500806A05 /* MenuItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		ADAC4FD227F4CA4C00806A05 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		ADAC4FD427F4D1E300806A05 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		ADAC4FD627F538D900806A05 /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
+		ADAC4FD827FD878800806A05 /* HotelAmenitiesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelAmenitiesCollectionViewCell.swift; sourceTree = "<group>"; };
+		ADAC4FD927FD878800806A05 /* HotelAmenitiesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelAmenitiesCollectionViewCell.xib; sourceTree = "<group>"; };
+		ADAC4FDC280BCC2600806A05 /* CitySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectionViewController.swift; sourceTree = "<group>"; };
+		ADAC4FDE280CF2C700806A05 /* CountryInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInputViewController.swift; sourceTree = "<group>"; };
+		ADAC4FE0280D1E2C00806A05 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		ADAC4FE2280EB57A00806A05 /* StateEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateEnum.swift; sourceTree = "<group>"; };
+		ADAC4FE4280FD3B700806A05 /* WelcomePopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePopupViewController.swift; sourceTree = "<group>"; };
+		ADBAE8BD28125F9E00F5B1EF /* LoadingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingManager.swift; sourceTree = "<group>"; };
+		ADBAE8C12819011B00F5B1EF /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		ADDD5C1A2838E2A500B99E6A /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		ADEF8518278F182B00CE18B1 /* TravelEzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelEzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEF851B278F182B00CE18B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADEF851D278F182B00CE18B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADEF851F278F182B00CE18B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADEF8522278F182B00CE18B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADEF8525278F182B00CE18B1 /* TravelEzy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelEzy.xcdatamodel; sourceTree = "<group>"; };
 		ADEF8527278F183000CE18B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +143,40 @@
 		ADEF853B278F183100CE18B1 /* TravelEzyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelEzyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEF853F278F183100CE18B1 /* TravelEzyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelEzyUITests.swift; sourceTree = "<group>"; };
 		ADEF8541278F183100CE18B1 /* TravelEzyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelEzyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ADEF855A2796911400CE18B1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ADEF855F2796C9F300CE18B1 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		ADEF85612796D6E500CE18B1 /* SF-Compact-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Semibold.otf"; sourceTree = "<group>"; };
+		ADEF85632796D6FB00CE18B1 /* SF-UI-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Regular.otf"; sourceTree = "<group>"; };
+		ADEF85642796D6FB00CE18B1 /* SF-UI-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		ADEF85652796D6FB00CE18B1 /* SF-UI-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Light.otf"; sourceTree = "<group>"; };
+		ADEF85692796D9BF00CE18B1 /* SF-Compact-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		ADEF856B2797E37B00CE18B1 /* Travel.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Travel.gif; sourceTree = "<group>"; };
+		ADEF856D2797EC8100CE18B1 /* SF-UI-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Black.otf"; sourceTree = "<group>"; };
+		ADEF856F279819E200CE18B1 /* GuestUser.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GuestUser.storyboard; sourceTree = "<group>"; };
+		ADEF8571279819F800CE18B1 /* ServiceProvider.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ServiceProvider.storyboard; sourceTree = "<group>"; };
+		ADEF85732798218900CE18B1 /* DisplayWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayWeatherViewController.swift; sourceTree = "<group>"; };
+		ADEF8575279E7D2D00CE18B1 /* ExploreCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCityViewController.swift; sourceTree = "<group>"; };
+		ADEF8577279E7D3F00CE18B1 /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
+		ADEF858327B7FE1D00CE18B1 /* PlaceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		ADEF858427B7FE1D00CE18B1 /* PlaceCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceCollectionViewCell.xib; sourceTree = "<group>"; };
+		ADEF858727BE71A300CE18B1 /* FiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersViewController.swift; sourceTree = "<group>"; };
+		ADEF858927BE8B4400CE18B1 /* HotelListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelListingViewController.swift; sourceTree = "<group>"; };
+		ADEF858B27BE8B5A00CE18B1 /* HotelDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDetailViewController.swift; sourceTree = "<group>"; };
+		ADEF858D27BE8FC100CE18B1 /* HotelListingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelListingTableViewCell.swift; sourceTree = "<group>"; };
+		ADEF858E27BE8FC100CE18B1 /* HotelListingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelListingTableViewCell.xib; sourceTree = "<group>"; };
+		ADEF859127C38E6700CE18B1 /* RestaurantListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListingViewController.swift; sourceTree = "<group>"; };
+		ADEF859327C38EA000CE18B1 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		ADEF859727C3C3AA00CE18B1 /* RestaurantListingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListingTableViewCell.swift; sourceTree = "<group>"; };
+		ADEF859827C3C3AA00CE18B1 /* RestaurantListingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantListingTableViewCell.xib; sourceTree = "<group>"; };
+		ADEF859B27CF799800CE18B1 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		ADEF859D27D3C1F100CE18B1 /* DropDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownViewController.swift; sourceTree = "<group>"; };
+		ADF2EBFB27DB5BAE00AD61A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ADF2EBFF27E3608900AD61A6 /* CityInputFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityInputFirstViewController.swift; sourceTree = "<group>"; };
+		ADF2EC0127E360A100AD61A6 /* CityInputSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityInputSecondViewController.swift; sourceTree = "<group>"; };
+		ADF2EC0327E5D75300AD61A6 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		B227C466BF87F41B6C508D09 /* Pods-TravelEzy-TravelEzyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelEzy-TravelEzyUITests.debug.xcconfig"; path = "Target Support Files/Pods-TravelEzy-TravelEzyUITests/Pods-TravelEzy-TravelEzyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3EF510D75108ABC2A71C15E /* Pods-TravelEzyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelEzyTests.debug.xcconfig"; path = "Target Support Files/Pods-TravelEzyTests/Pods-TravelEzyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E82B50E02A03D1AB4727EA6B /* Pods_TravelEzyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelEzyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +184,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30774C4F078D6BBAF140F26D /* Pods_TravelEzy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +192,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				825034874B0566371439324D /* Pods_TravelEzyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +200,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFD580CC5E705B33C5EFFB3 /* Pods_TravelEzy_TravelEzyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05311A320718ABF75CFAA607 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1186985AB56645621E81FB07 /* Pods_TravelEzy.framework */,
+				23E2A795ED09141A4B798FD0 /* Pods_TravelEzy_TravelEzyUITests.framework */,
+				E82B50E02A03D1AB4727EA6B /* Pods_TravelEzyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8D8995F7D9598905909B193 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D22C009A9544F0092787AA3 /* Pods-TravelEzy.debug.xcconfig */,
+				3BA795265376FA7BC9A8C6A5 /* Pods-TravelEzy.release.xcconfig */,
+				B227C466BF87F41B6C508D09 /* Pods-TravelEzy-TravelEzyUITests.debug.xcconfig */,
+				544883E92FBED0299180B23F /* Pods-TravelEzy-TravelEzyUITests.release.xcconfig */,
+				B3EF510D75108ABC2A71C15E /* Pods-TravelEzyTests.debug.xcconfig */,
+				5F475A82DD2969EBA7991308 /* Pods-TravelEzyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ADA5BC2627DB16DC0059276C /* Service Provider */ = {
+			isa = PBXGroup;
+			children = (
+				ADA5BC2727DB172C0059276C /* HotelInputFirstViewController.swift */,
+				ADA5BC2927DB17880059276C /* HotelInputSecondViewController.swift */,
+				ADF2EBFF27E3608900AD61A6 /* CityInputFirstViewController.swift */,
+				ADF2EC0127E360A100AD61A6 /* CityInputSecondViewController.swift */,
+				AD952B0027EC0C8E003E2151 /* RestaurantInputFirstViewController.swift */,
+				AD952B0227EC0CA8003E2151 /* RestaurantInputSecondViewController.swift */,
+				ADAC4FDE280CF2C700806A05 /* CountryInputViewController.swift */,
+			);
+			path = "Service Provider";
+			sourceTree = "<group>";
+		};
 		ADEF850F278F182A00CE18B1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +251,8 @@
 				ADEF8534278F183100CE18B1 /* TravelEzyTests */,
 				ADEF853E278F183100CE18B1 /* TravelEzyUITests */,
 				ADEF8519278F182B00CE18B1 /* Products */,
+				A8D8995F7D9598905909B193 /* Pods */,
+				05311A320718ABF75CFAA607 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +269,17 @@
 		ADEF851A278F182B00CE18B1 /* TravelEzy */ = {
 			isa = PBXGroup;
 			children = (
+				ADEF85592796860000CE18B1 /* Extensions */,
+				ADEF8558279685F600CE18B1 /* Enums */,
+				ADEF8557279685E000CE18B1 /* Resources */,
+				ADEF8556279685D900CE18B1 /* Utility */,
+				ADEF85532796856F00CE18B1 /* Services */,
+				ADEF85502790A46E00CE18B1 /* Controllers */,
+				ADEF854F2790A46300CE18B1 /* Views */,
+				ADEF854E2790A44D00CE18B1 /* Model */,
 				ADEF851B278F182B00CE18B1 /* AppDelegate.swift */,
 				ADEF851D278F182B00CE18B1 /* SceneDelegate.swift */,
-				ADEF851F278F182B00CE18B1 /* ViewController.swift */,
-				ADEF8521278F182B00CE18B1 /* Main.storyboard */,
-				ADEF8527278F183000CE18B1 /* Assets.xcassets */,
-				ADEF8529278F183000CE18B1 /* LaunchScreen.storyboard */,
 				ADEF852C278F183000CE18B1 /* Info.plist */,
-				ADEF8524278F182B00CE18B1 /* TravelEzy.xcdatamodeld */,
 			);
 			path = TravelEzy;
 			sourceTree = "<group>";
@@ -130,6 +301,158 @@
 			path = TravelEzyUITests;
 			sourceTree = "<group>";
 		};
+		ADEF854E2790A44D00CE18B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD588F0827D673BB00484E10 /* Hotel.swift */,
+				ADF2EC0327E5D75300AD61A6 /* City.swift */,
+				ADAC4FCC27EF798400806A05 /* Restaurant.swift */,
+				ADAC4FD427F4D1E300806A05 /* CurrentWeather.swift */,
+				ADAC4FD627F538D900806A05 /* DailyWeather.swift */,
+				ADAC4FE0280D1E2C00806A05 /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ADEF854F2790A46300CE18B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ADEF85522790A4D300CE18B1 /* Cells */,
+				ADEF85512790A4B600CE18B1 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ADEF85502790A46E00CE18B1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADA5BC2627DB16DC0059276C /* Service Provider */,
+				ADEF855A2796911400CE18B1 /* LoginViewController.swift */,
+				ADEF85732798218900CE18B1 /* DisplayWeatherViewController.swift */,
+				ADEF8575279E7D2D00CE18B1 /* ExploreCityViewController.swift */,
+				ADEF8577279E7D3F00CE18B1 /* PlaceDetailViewController.swift */,
+				ADEF858727BE71A300CE18B1 /* FiltersViewController.swift */,
+				ADEF858927BE8B4400CE18B1 /* HotelListingViewController.swift */,
+				ADEF858B27BE8B5A00CE18B1 /* HotelDetailViewController.swift */,
+				ADEF859127C38E6700CE18B1 /* RestaurantListingViewController.swift */,
+				ADEF859327C38EA000CE18B1 /* RestaurantDetailViewController.swift */,
+				ADEF859D27D3C1F100CE18B1 /* DropDownViewController.swift */,
+				ADAC4FDC280BCC2600806A05 /* CitySelectionViewController.swift */,
+				ADAC4FE4280FD3B700806A05 /* WelcomePopupViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ADEF85512790A4B600CE18B1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				ADEF8521278F182B00CE18B1 /* Main.storyboard */,
+				ADEF856F279819E200CE18B1 /* GuestUser.storyboard */,
+				ADEF8571279819F800CE18B1 /* ServiceProvider.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		ADEF85522790A4D300CE18B1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ADEF858327B7FE1D00CE18B1 /* PlaceCollectionViewCell.swift */,
+				ADEF858427B7FE1D00CE18B1 /* PlaceCollectionViewCell.xib */,
+				ADEF858D27BE8FC100CE18B1 /* HotelListingTableViewCell.swift */,
+				ADEF858E27BE8FC100CE18B1 /* HotelListingTableViewCell.xib */,
+				ADEF859727C3C3AA00CE18B1 /* RestaurantListingTableViewCell.swift */,
+				ADEF859827C3C3AA00CE18B1 /* RestaurantListingTableViewCell.xib */,
+				ADA5BC2227DA20880059276C /* HotelPriceDetailTableViewCell.swift */,
+				ADA5BC2327DA20880059276C /* HotelPriceDetailTableViewCell.xib */,
+				ADAC4FCE27F429C500806A05 /* MenuItemCollectionViewCell.swift */,
+				ADAC4FCF27F429C500806A05 /* MenuItemCollectionViewCell.xib */,
+				ADAC4FD827FD878800806A05 /* HotelAmenitiesCollectionViewCell.swift */,
+				ADAC4FD927FD878800806A05 /* HotelAmenitiesCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		ADEF85532796856F00CE18B1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ADEF85552796858300CE18B1 /* WebServices */,
+				ADEF85542796857F00CE18B1 /* CoreData */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ADEF85542796857F00CE18B1 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				ADEF8524278F182B00CE18B1 /* TravelEzy.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		ADEF85552796858300CE18B1 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC4FD227F4CA4C00806A05 /* WebService.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		ADEF8556279685D900CE18B1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AD588F0627D670B300484E10 /* HotelData.json */,
+				ADBAE8BD28125F9E00F5B1EF /* LoadingManager.swift */,
+				ADAB28F7292E3B97000ECFF8 /* AlertManager.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		ADEF8557279685E000CE18B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ADEF855E2796C9D200CE18B1 /* Fonts */,
+				ADEF8527278F183000CE18B1 /* Assets.xcassets */,
+				ADEF8529278F183000CE18B1 /* LaunchScreen.storyboard */,
+				ADEF855F2796C9F300CE18B1 /* Theme.swift */,
+				ADEF856B2797E37B00CE18B1 /* Travel.gif */,
+				ADAB28F529170DEB000ECFF8 /* Loading_Icon.gif */,
+				ADF2EBFB27DB5BAE00AD61A6 /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ADEF8558279685F600CE18B1 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC4FE2280EB57A00806A05 /* StateEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		ADEF85592796860000CE18B1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ADEF859B27CF799800CE18B1 /* UIButton+Extensions.swift */,
+				ADBAE8C12819011B00F5B1EF /* UIViewController+Extensions.swift */,
+				ADDD5C1A2838E2A500B99E6A /* UITextField+Extensions.swift */,
+				ADAB28F32915801F000ECFF8 /* UIImageView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ADEF855E2796C9D200CE18B1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ADEF85612796D6E500CE18B1 /* SF-Compact-Text-Semibold.otf */,
+				ADEF85652796D6FB00CE18B1 /* SF-UI-Display-Light.otf */,
+				ADEF85632796D6FB00CE18B1 /* SF-UI-Display-Regular.otf */,
+				ADEF85642796D6FB00CE18B1 /* SF-UI-Display-Ultralight.otf */,
+				ADEF85692796D9BF00CE18B1 /* SF-Compact-Text-LightItalic.otf */,
+				ADEF856D2797EC8100CE18B1 /* SF-UI-Display-Black.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +460,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADEF8545278F183100CE18B1 /* Build configuration list for PBXNativeTarget "TravelEzy" */;
 			buildPhases = (
+				D4C23C9603FDC0563376763B /* [CP] Check Pods Manifest.lock */,
 				ADEF8514278F182B00CE18B1 /* Sources */,
 				ADEF8515278F182B00CE18B1 /* Frameworks */,
 				ADEF8516278F182B00CE18B1 /* Resources */,
+				695BC758E414258B1FF21EA7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +479,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADEF8548278F183100CE18B1 /* Build configuration list for PBXNativeTarget "TravelEzyTests" */;
 			buildPhases = (
+				534C657428A8AB6F25027B5A /* [CP] Check Pods Manifest.lock */,
 				ADEF852D278F183100CE18B1 /* Sources */,
 				ADEF852E278F183100CE18B1 /* Frameworks */,
 				ADEF852F278F183100CE18B1 /* Resources */,
@@ -172,9 +498,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADEF854B278F183100CE18B1 /* Build configuration list for PBXNativeTarget "TravelEzyUITests" */;
 			buildPhases = (
+				0966F89873F86CCE9D2C5746 /* [CP] Check Pods Manifest.lock */,
 				ADEF8537278F183100CE18B1 /* Sources */,
 				ADEF8538278F183100CE18B1 /* Frameworks */,
 				ADEF8539278F183100CE18B1 /* Resources */,
+				D1AD999153A8C793AD8A9AAE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,7 +538,7 @@
 				};
 			};
 			buildConfigurationList = ADEF8513278F182B00CE18B1 /* Build configuration list for PBXProject "TravelEzy" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -234,8 +562,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADEF856A2796D9BF00CE18B1 /* SF-Compact-Text-LightItalic.otf in Resources */,
+				ADEF859027BE8FC100CE18B1 /* HotelListingTableViewCell.xib in Resources */,
+				ADEF859A27C3C3AA00CE18B1 /* RestaurantListingTableViewCell.xib in Resources */,
+				ADAC4FDB27FD878800806A05 /* HotelAmenitiesCollectionViewCell.xib in Resources */,
+				ADAC4FD127F429C500806A05 /* MenuItemCollectionViewCell.xib in Resources */,
 				ADEF852B278F183000CE18B1 /* LaunchScreen.storyboard in Resources */,
+				ADEF85672796D6FB00CE18B1 /* SF-UI-Display-Ultralight.otf in Resources */,
+				ADEF8570279819E300CE18B1 /* GuestUser.storyboard in Resources */,
+				ADEF85682796D6FB00CE18B1 /* SF-UI-Display-Light.otf in Resources */,
+				ADA5BC2527DA20880059276C /* HotelPriceDetailTableViewCell.xib in Resources */,
+				ADEF8572279819F800CE18B1 /* ServiceProvider.storyboard in Resources */,
 				ADEF8528278F183000CE18B1 /* Assets.xcassets in Resources */,
+				ADEF856E2797EC8100CE18B1 /* SF-UI-Display-Black.otf in Resources */,
+				ADF2EBFC27DB5BAE00AD61A6 /* GoogleService-Info.plist in Resources */,
+				ADEF856C2797E37B00CE18B1 /* Travel.gif in Resources */,
+				ADEF858627B7FE1D00CE18B1 /* PlaceCollectionViewCell.xib in Resources */,
+				ADAB28F629170DEB000ECFF8 /* Loading_Icon.gif in Resources */,
+				AD588F0727D670B400484E10 /* HotelData.json in Resources */,
+				ADEF85662796D6FB00CE18B1 /* SF-UI-Display-Regular.otf in Resources */,
+				ADEF85622796D6E500CE18B1 /* SF-Compact-Text-Semibold.otf in Resources */,
 				ADEF8523278F182B00CE18B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,15 +602,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0966F89873F86CCE9D2C5746 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelEzy-TravelEzyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		534C657428A8AB6F25027B5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelEzyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		695BC758E414258B1FF21EA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelEzy/Pods-TravelEzy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelEzy/Pods-TravelEzy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelEzy/Pods-TravelEzy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1AD999153A8C793AD8A9AAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelEzy-TravelEzyUITests/Pods-TravelEzy-TravelEzyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelEzy-TravelEzyUITests/Pods-TravelEzy-TravelEzyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelEzy-TravelEzyUITests/Pods-TravelEzy-TravelEzyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C23C9603FDC0563376763B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelEzy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ADEF8514278F182B00CE18B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADAC4FCD27EF798400806A05 /* Restaurant.swift in Sources */,
+				ADAC4FE1280D1E2D00806A05 /* Country.swift in Sources */,
+				ADBAE8BE28125F9E00F5B1EF /* LoadingManager.swift in Sources */,
+				ADA5BC2427DA20880059276C /* HotelPriceDetailTableViewCell.swift in Sources */,
+				ADAC4FD527F4D1E300806A05 /* CurrentWeather.swift in Sources */,
+				ADF2EC0027E3608A00AD61A6 /* CityInputFirstViewController.swift in Sources */,
+				ADEF859227C38E6700CE18B1 /* RestaurantListingViewController.swift in Sources */,
+				ADAB28F429158020000ECFF8 /* UIImageView+Extensions.swift in Sources */,
+				ADAC4FD727F538D900806A05 /* DailyWeather.swift in Sources */,
+				ADEF858C27BE8B5A00CE18B1 /* HotelDetailViewController.swift in Sources */,
+				ADAB28F8292E3B98000ECFF8 /* AlertManager.swift in Sources */,
+				ADAC4FDF280CF2C700806A05 /* CountryInputViewController.swift in Sources */,
+				ADEF855B2796911400CE18B1 /* LoginViewController.swift in Sources */,
+				ADA5BC2827DB172C0059276C /* HotelInputFirstViewController.swift in Sources */,
+				ADEF8578279E7D3F00CE18B1 /* PlaceDetailViewController.swift in Sources */,
+				ADAC4FDA27FD878800806A05 /* HotelAmenitiesCollectionViewCell.swift in Sources */,
+				ADAC4FE5280FD3B800806A05 /* WelcomePopupViewController.swift in Sources */,
 				ADEF8526278F182B00CE18B1 /* TravelEzy.xcdatamodeld in Sources */,
-				ADEF8520278F182B00CE18B1 /* ViewController.swift in Sources */,
+				ADF2EC0227E360A200AD61A6 /* CityInputSecondViewController.swift in Sources */,
+				ADEF859927C3C3AA00CE18B1 /* RestaurantListingTableViewCell.swift in Sources */,
+				ADEF85742798218900CE18B1 /* DisplayWeatherViewController.swift in Sources */,
+				ADEF858827BE71A300CE18B1 /* FiltersViewController.swift in Sources */,
+				ADEF859427C38EA000CE18B1 /* RestaurantDetailViewController.swift in Sources */,
+				ADA5BC2A27DB17880059276C /* HotelInputSecondViewController.swift in Sources */,
+				ADEF85602796C9F300CE18B1 /* Theme.swift in Sources */,
+				ADAC4FD327F4CA4D00806A05 /* WebService.swift in Sources */,
+				ADEF858F27BE8FC100CE18B1 /* HotelListingTableViewCell.swift in Sources */,
+				AD588F0927D673BB00484E10 /* Hotel.swift in Sources */,
+				ADEF859C27CF799900CE18B1 /* UIButton+Extensions.swift in Sources */,
+				ADAC4FD027F429C500806A05 /* MenuItemCollectionViewCell.swift in Sources */,
+				ADEF858527B7FE1D00CE18B1 /* PlaceCollectionViewCell.swift in Sources */,
 				ADEF851C278F182B00CE18B1 /* AppDelegate.swift in Sources */,
+				ADDD5C1B2838E2A500B99E6A /* UITextField+Extensions.swift in Sources */,
+				ADAC4FDD280BCC2800806A05 /* CitySelectionViewController.swift in Sources */,
+				ADEF858A27BE8B4400CE18B1 /* HotelListingViewController.swift in Sources */,
+				ADEF859E27D3C1F200CE18B1 /* DropDownViewController.swift in Sources */,
+				ADBAE8C22819011C00F5B1EF /* UIViewController+Extensions.swift in Sources */,
 				ADEF851E278F182B00CE18B1 /* SceneDelegate.swift in Sources */,
+				AD952B0327EC0CA8003E2151 /* RestaurantInputSecondViewController.swift in Sources */,
+				ADF2EC0427E5D75400AD61A6 /* City.swift in Sources */,
+				AD952B0127EC0C8E003E2151 /* RestaurantInputFirstViewController.swift in Sources */,
+				ADAC4FE3280EB57B00806A05 /* StateEnum.swift in Sources */,
+				ADEF8576279E7D2D00CE18B1 /* ExploreCityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +859,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -426,7 +914,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,18 +926,24 @@
 		};
 		ADEF8546278F183100CE18B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D22C009A9544F0092787AA3 /* Pods-TravelEzy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TravelEzy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TravelEzy;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Use gallery";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow this app to use your gallery.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,26 +951,33 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.TravelEzy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		ADEF8547278F183100CE18B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA795265376FA7BC9A8C6A5 /* Pods-TravelEzy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TravelEzy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TravelEzy;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Use gallery";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow this app to use your gallery.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,14 +985,16 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.TravelEzy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		ADEF8549278F183100CE18B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3EF510D75108ABC2A71C15E /* Pods-TravelEzyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +1019,7 @@
 		};
 		ADEF854A278F183100CE18B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F475A82DD2969EBA7991308 /* Pods-TravelEzyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +1044,7 @@
 		};
 		ADEF854C278F183100CE18B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B227C466BF87F41B6C508D09 /* Pods-TravelEzy-TravelEzyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -562,6 +1067,7 @@
 		};
 		ADEF854D278F183100CE18B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544883E92FBED0299180B23F /* Pods-TravelEzy-TravelEzyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

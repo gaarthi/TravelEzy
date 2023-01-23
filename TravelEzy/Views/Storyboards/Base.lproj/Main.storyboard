@@ -163,7 +163,6 @@
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="loginBtnTapped:" destination="VZe-Xq-ZyK" eventType="touchUpInside" id="nW8-fg-L0p"/>
-                                            <segue destination="Kc9-XH-5br" kind="show" identifier="serviceProviderSegue" id="J9y-C8-Qlk"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4J-w4-imn">
@@ -242,16 +241,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Chh-rJ-la3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-369.56521739130437" y="-14.732142857142856"/>
-        </scene>
-        <!--ServiceProvider-->
-        <scene sceneID="Euh-eL-DhA">
-            <objects>
-                <viewControllerPlaceholder storyboardName="ServiceProvider" id="Kc9-XH-5br" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="0LV-7E-I8u"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gP5-cH-42I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-691" y="440"/>
         </scene>
         <!--City Selection View Controller-->
         <scene sceneID="9jl-p6-mTC">

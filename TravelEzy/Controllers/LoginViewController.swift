@@ -89,7 +89,7 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func loginBtnTapped(_ sender: UIButton) {
-        //Navigate to Service Provider View only for providing input values
+        //Navigate to Service Provider View only for providing input values for places, restaurants and hotels otherwise 'Continue As Guest User'
         //self.performSegue(withIdentifier: "serviceProviderSegue", sender: self)
     }
     
